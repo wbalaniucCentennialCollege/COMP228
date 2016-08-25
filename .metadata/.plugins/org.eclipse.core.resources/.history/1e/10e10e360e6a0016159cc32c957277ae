@@ -1,0 +1,21 @@
+
+public class AccountTest 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Account myAccount = new Account();
+		
+		myAccount.name = "Some really bad swear word";
+		//myAccount.setName("Some really bad swear word");
+
+		// myAccount.setName("Wallace's account");
+		
+		System.out.println(myAccount.name);
+		//System.out.println(myAccount.getName());
+
+
+	}
+
+}

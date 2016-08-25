@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class AccountTest 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in;
+		
+		Account myAccount = new Account();
+		
+		myAccount.setName("Some really bad swear word");
+
+		System.out.println(myAccount.getName());
+
+
+	}
+
+}

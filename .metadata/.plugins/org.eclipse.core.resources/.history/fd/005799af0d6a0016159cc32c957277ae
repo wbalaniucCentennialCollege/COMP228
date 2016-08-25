@@ -1,0 +1,16 @@
+
+public class Account 
+{
+	public String name;
+	
+	// Allow the name of the account to be set
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+}

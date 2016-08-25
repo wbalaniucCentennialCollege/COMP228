@@ -1,0 +1,16 @@
+
+public class AccountTest 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Account myAccount = new Account();
+		
+		myAccount.setName("Wallace's account");
+		
+		System.out.println(myAccount.getName());
+
+	}
+
+}

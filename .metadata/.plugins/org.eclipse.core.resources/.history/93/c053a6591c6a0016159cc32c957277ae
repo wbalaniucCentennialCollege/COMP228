@@ -1,0 +1,22 @@
+
+public class Account 
+{
+	public String name;
+	
+	// Constructor
+	public Account()
+	{
+		name = "Default name";
+	}
+	
+	// Allow the name of the account to be set
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+}
